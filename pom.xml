@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.swpproject</groupId>
-    <packaging>jar</packaging>
+<!--    <packaging>jar</packaging>-->
 
     <artifactId>swpgym</artifactId>
     <version>0.0.1-SNAPSHOT</version>
