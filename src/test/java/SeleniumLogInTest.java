@@ -22,8 +22,8 @@ public class SeleniumLogInTest {
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
 
         // Enter your email and password
-        emailInput.sendKeys("trinhtruongcong3@gmail.com");
-        passwordInput.sendKeys("123123123");
+        emailInput.sendKeys("leokay2406@gmail.com");
+        passwordInput.sendKeys("849517kai");
 
         loginButton.click();
 
@@ -45,7 +45,7 @@ public class SeleniumLogInTest {
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
 
         // Only fill one field (email) and leave the other field (password) empty
-        emailInput.sendKeys("trinhtruongcong3@gmail.com");
+        emailInput.sendKeys("leokay2406@gmail.com");
 
         loginButton.click();
 

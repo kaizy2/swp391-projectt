@@ -9,6 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.swpproject</groupId>
+    <packaging>jar</packaging>
+
     <artifactId>swpgym</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>swpgym</name>
@@ -273,6 +275,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
             </plugin>
+
+
         </plugins>
     </build>
 
